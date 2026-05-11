@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  font-family: sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
