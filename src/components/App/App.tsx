@@ -36,6 +36,7 @@ export default function App() {
     queryKey: ["movies", query, page],
     queryFn: () => fetchMovies(query, page),
     enabled: query !== "",
+    placeholderData: (previousData) => previousData,
   });
 
   const movies = data?.results ?? [];
